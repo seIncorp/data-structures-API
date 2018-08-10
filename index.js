@@ -37,3 +37,21 @@ DTA.LinkedList = {
 			list.tail = null;
 		}
 };
+
+DTA.DoublyLinkedList = {
+		new: function(){
+			return new DoublyLinkedList();
+		},
+		
+		fill: function(list,array){
+			array.forEach(v => {
+				list.append(v);
+			});
+		},
+		
+		reset: function(list){
+			list.head = null;
+			list.tail = null;
+		}
+};
+
