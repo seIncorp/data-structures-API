@@ -49,7 +49,3 @@ Stack.prototype.toArray = function(){
 Stack.prototype.toString = function(){
 	return [...this.array].reverse().toString();
 };
-
-Stack.prototype.fromArray = function(arr){
-	// TODO: finish this function
-};

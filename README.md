@@ -23,3 +23,36 @@ DTA.Stack.fill(st, [7,8,9]);
 ```
 DTA.Stack.reset(st)
 ```
+
+### Stack class functions
+* isEmpty
+* peek
+* push
+* pop
+* toArray
+* toString
+
+## LinkedList
+* **1.1 Creating**
+```
+var n = DTA.LinkedList.new();
+```
+* **1.2 Fill stack**
+```
+DTA.LinkedList.fill(n,[5,1,1,8,9])
+```
+* **1.3 Hard reseting stack**
+```
+DTA.LinkedList.reset(n);
+```
+
+### LinkedList class functions
+* node
+* append
+* prepend
+* deleteNode
+* deleteNodes
+* find
+* toArray
+* toArrayValues
+* toString
