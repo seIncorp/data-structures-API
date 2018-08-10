@@ -159,7 +159,21 @@ LinkedList.prototype.deleteNodes = function(value){
  * @return {Node}
  */
 LinkedList.prototype.find = function(value){
+	if(!this.head)
+		return null;
+
+	let temp = [];
+	let current = this.head;
 	
+	while(current)
+	{
+		if(current.value === value)
+			temp.push(current);
+		
+		current = current.next;
+	}
+	
+	return temp.length == 0 ? null : temp.length == 1 ? temp[0] : temp ;
 };
 
 /**
