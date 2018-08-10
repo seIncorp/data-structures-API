@@ -1,4 +1,8 @@
 # data-structures-API
+
+[![Build Status](https://travis-ci.org/seIncorp/data-structures-API.svg?branch=master)](https://travis-ci.org/seIncorp/data-structures-API)
+[![codecov](https://codecov.io/gh/seIncorp/data-structures-API/branch/master/graph/badge.svg)](https://codecov.io/gh/seIncorp/data-structures-API)
+
 For easy to use data structures in Javascript. Made in Vanilla Javascript.
 
 
