@@ -56,3 +56,28 @@ DTA.LinkedList.reset(n);
 * toArray
 * toArrayValues
 * toString
+
+## DoublyLinkedList
+* **1.1 Creating**
+```
+var n = DTA.DoublyLinkedList.new();
+```
+* **1.2 Fill stack**
+```
+DTA.DoublyLinkedList.fill(n,[5,1,1,8,9])
+```
+* **1.3 Hard reseting stack**
+```
+DTA.DoublyLinkedList.reset(n);
+```
+
+### DoublyLinkedList class functions
+* node
+* append
+* prepend
+* deleteNode
+* deleteNodes
+* find
+* toArray
+* toArrayValues
+* toString
