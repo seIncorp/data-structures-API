@@ -55,3 +55,37 @@ DTA.DoublyLinkedList = {
 		}
 };
 
+DTA.Queue = {
+		new: function(){
+			return new Queue();
+		},
+		
+		fill: function(list,array){
+			array.forEach(v => {
+				list.enqueue(v);
+			});
+		},
+		
+		reset: function(list){
+			list.queue = [];
+		}
+};
+
+DTA.BloomFilter = {
+		new: function(){
+			return new BloomFilter();
+		},
+		
+		fill: function(list,array){
+			array.forEach(v => {
+				list.insert(v);
+			});
+		},
+		
+		reset: function(list){
+			list.storage.reset();
+		}
+};
+
+
+var aa = DTA.BloomFilter.new();
